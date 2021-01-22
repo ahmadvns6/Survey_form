@@ -1,0 +1,40 @@
+body{
+	font-family:sans-serif;
+	padding-left:33%;
+	padding-right:20%;
+	
+}
+label{
+	font-size:18px;
+	display:inline;
+	padding-bottom:10px;
+}
+input, text-area, select{
+	display:block;
+	width:100%;
+	padding-bottom:20px;
+
+}
+text-area{
+	width:100%;
+	display:block;
+}
+form{
+	background-color:wheat;
+	padding:40px 40px 40px 40px;
+}
+input.checkbox{
+	display:inline;
+	padding:10px;
+}
+#button-area{
+	float:left;
+	background-color:whitesmoke;
+	width:50%;
+	height:50%;
+	
+}
+input.radio{
+	padding:20px;
+ 
+} 

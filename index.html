@@ -1,0 +1,53 @@
+<html lang="em">
+<head>
+	<link rel="stylesheet" type="text/css" href="mystylesheet.css"/>
+</head>
+
+<body>
+ 
+
+<h1 id="title">Survey Form</h1>
+<p id="description"> 
+This is the survey where you can tell us about music you're inspired by.
+</p>
+<form id="survey-form">
+<label id="name-label"> Name: </label> </br>
+
+  <input type="text-label" name="name" id="name" placeholder="First Name" required/></br>
+<label id="email-label"> Email: </label>  </br>
+ <input type="email" name="email" id="email" placeholder="Enter Your Email" required /></br>
+<label id="number-label">Number: </label> </br>
+ <input type="number" name="number" id="number" min="0" max="8" placeholder="Enter number" required  /></br>
+
+<label id="guitar-type-label">Guitar Type </label> </br>
+<select id="dropdown" name="dropdown" name="Guitar">
+	<option>Select	</option>
+	<option>Flute	</option>
+	<option>benjo	</option>
+	<option>Cpiphone	</option>
+	<option>Others	</option>
+	 
+</select></br>
+	<div id="button-area"> 
+	<label id="gender-label">Gender</label> </br>
+		<input type="radio" class="radio-inline" name="Gender" value="male"/>Male </br>
+		<input type="radio" class="radio-inline" name="Gender" value="female"/>Female </br>
+		<input type="radio" class="radio-inline" name="Gender" value="other"/>Other </br>
+	</div>
+	<div id="button-area"> 
+	<label id="tranportation-type-label">Transport Type </label>
+<input type="checkbox" name="Vehicle" value="Byke" /> I have a bike </br>
+<input type="checkbox" name="Vehicle" value="Car" /> I have a car </br>
+<input type="checkbox" name="Vehicle" value="bus" /> I have a bike </br>
+	</div>
+<label id="additional-label">Additional Details </label> </br>
+<textarea <input type="textarea" placeholder="Other Answer"/> </textarea> 
+<input type="submit" id="submit" />
+
+</form>
+ 
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> </script>
+
+</html>
